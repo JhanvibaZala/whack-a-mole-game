@@ -67,26 +67,6 @@ git clone https://github.com/JhanvibaZala/whack-a-mole-game.git
 
 ## 🙋‍♀️ Author
 
-Made with ❤️ by [Jhanvi Zala](https://github.com/JhanvibaZala)
+Made with ❤️ by [Jhanviba Zala](https://github.com/JhanvibaZala)
 
 ---
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
-````
-
----
-
-### ✅ Final Checklist:
-
-- 📂 Add your screenshot at: `./assets/screenshot.png`
-- ✅ Save the above content as `README.md` in your project root
-- 🧠 Then push the changes:
-
-```bash
-git add README.md assets/screenshot.png
-git commit -m "Added README with screenshot"
-git push origin main
-````
