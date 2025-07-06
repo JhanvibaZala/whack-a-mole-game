@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whack-a-Mole Game</title>
+  <link rel="stylesheet" href="mole.css">
+  <link rel="icon" href="./Images/favicon.ico">
+  <script src="mole.js"></script>
+</head>
+<body>
+
+  <h1>Whack a Mole</h1>
+  <h2 id="score" style="display: none;">Score : 0</h2>
+  <h3 id="timer" style="display: none;">⏳ Time Left: 30 seconds</h3>
+
+  <!-- Game Board -->
+  <div id="board" style="display: none;"></div>
+
+  <!-- Control Buttons -->
+  <button id="startBtn" onclick="startGame()">▶️ Start</button>
+  <button id="resetBtn" onclick="resetGame()" style="display: none;">🔄 Reset</button>
+
+  <!-- Difficulty Level Buttons -->
+  <h3>Difficulty:</h3>
+  <button onclick="setDifficulty(1000, 2000)">🟢 Easy</button>
+  <button onclick="setDifficulty(700, 1500)">🟡 Medium</button>
+  <button onclick="setDifficulty(400, 1000)">🔴 Hard</button>
+
+</body>
+</html>
